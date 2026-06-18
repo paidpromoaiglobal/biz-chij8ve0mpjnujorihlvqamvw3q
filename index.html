@@ -78,7 +78,8 @@ section{padding:72px 5vw}
 /* GALLERY */
 .gallery-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start}
 @media(min-width:700px){.gallery-grid{grid-template-columns:1fr 1fr 1fr}}
-.gallery-grid img{width:100%;height:auto;display:block;border-radius:14px;box-shadow:0 4px 20px rgba(0,0,0,.12);transition:transform .3s,box-shadow .3s}
+.gallery-grid img{width:100%;height:260px;object-fit:cover;display:block;border-radius:14px;box-shadow:0 4px 20px rgba(0,0,0,.12);transition:transform .3s,box-shadow .3s}
+@media(min-width:700px){.gallery-grid img{height:300px}}
 .gallery-grid img:hover{transform:translateY(-4px);box-shadow:0 10px 32px rgba(0,0,0,.18)}
 /* REVIEWS */
 .rv-bg{background:#0f172a}
